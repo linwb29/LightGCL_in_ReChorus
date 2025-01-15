@@ -1,0 +1,99 @@
+INFO:root:Namespace(model_name='LightGCN', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-01 00:17:08 ---------------------------------------------
+INFO:root:
+==========================================
+ Arguments          | Values              
+==========================================
+ batch_size         | 256                
+ data_appendix      |                    
+ dataset            | MIND_Large\MINDTOPK
+ dropout            | 0                  
+ early_stop         | 10                 
+ emb_size           | 64                 
+ epoch              | 200                
+ eval_batch_size    | 256                
+ gpu                | -1                 
+ l2                 | 1e-08              
+ lr                 | 0.001              
+ main_metric        |                    
+ n_layers           | 3                  
+ num_neg            | 1                  
+ num_workers        | 5                  
+ optimizer          | Adam               
+ random_seed        | 0                  
+ save_final_results | 1                  
+ test_all           | 0                  
+ topk               | 5,10,20,50         
+==========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\MIND_Large\MINDTOPK\BaseReader.pkl
+INFO:root:#params: 1238080
+INFO:root:LightGCN(
+  (encoder): LGCNEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 2818x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 16527x64]
+    )
+  )
+)
+INFO:root:Test Before Training: (HR@5:0.0461,NDCG@5:0.0300,HR@10:0.0912,NDCG@10:0.0445,HR@20:0.1892,NDCG@20:0.0690,HR@50:0.5186,NDCG@50:0.1330)
+INFO:root:Optimizer: Adam
+INFO:root:Epoch 1     loss=0.4277 [121.4 s]	dev=(HR@5:0.0356,NDCG@5:0.0206) [1.1 s] *
+INFO:root:Epoch 2     loss=0.3645 [117.4 s]	dev=(HR@5:0.0337,NDCG@5:0.0199) [1.1 s]
+INFO:root:Epoch 3     loss=0.3579 [118.1 s]	dev=(HR@5:0.0328,NDCG@5:0.0200) [1.2 s]
+INFO:root:Epoch 4     loss=0.3553 [116.4 s]	dev=(HR@5:0.0350,NDCG@5:0.0209) [1.1 s] *
+INFO:root:Epoch 5     loss=0.3500 [117.1 s]	dev=(HR@5:0.0334,NDCG@5:0.0199) [1.1 s]
+INFO:root:Epoch 6     loss=0.3487 [117.9 s]	dev=(HR@5:0.0356,NDCG@5:0.0207) [1.2 s]
+INFO:root:Epoch 7     loss=0.3454 [116.8 s]	dev=(HR@5:0.0368,NDCG@5:0.0215) [1.1 s] *
+INFO:root:Epoch 8     loss=0.3394 [116.7 s]	dev=(HR@5:0.0380,NDCG@5:0.0222) [1.1 s] *
+INFO:root:Epoch 9     loss=0.3312 [117.3 s]	dev=(HR@5:0.0408,NDCG@5:0.0233) [1.1 s] *
+INFO:root:Epoch 10    loss=0.3198 [119.7 s]	dev=(HR@5:0.0466,NDCG@5:0.0261) [1.2 s] *
+INFO:root:Epoch 11    loss=0.3043 [117.2 s]	dev=(HR@5:0.0485,NDCG@5:0.0276) [1.1 s] *
+INFO:root:Epoch 12    loss=0.2906 [117.1 s]	dev=(HR@5:0.0506,NDCG@5:0.0285) [1.2 s] *
+INFO:root:Epoch 13    loss=0.2785 [116.8 s]	dev=(HR@5:0.0518,NDCG@5:0.0293) [1.1 s] *
+INFO:root:Epoch 14    loss=0.2675 [115.6 s]	dev=(HR@5:0.0540,NDCG@5:0.0303) [1.1 s] *
+INFO:root:Epoch 15    loss=0.2579 [117.3 s]	dev=(HR@5:0.0583,NDCG@5:0.0322) [1.2 s] *
+INFO:root:Epoch 16    loss=0.2469 [116.1 s]	dev=(HR@5:0.0571,NDCG@5:0.0321) [1.2 s]
+INFO:root:Epoch 17    loss=0.2389 [116.9 s]	dev=(HR@5:0.0580,NDCG@5:0.0333) [1.1 s] *
+INFO:root:Epoch 18    loss=0.2278 [116.7 s]	dev=(HR@5:0.0586,NDCG@5:0.0335) [1.2 s] *
+INFO:root:Epoch 19    loss=0.2191 [115.6 s]	dev=(HR@5:0.0577,NDCG@5:0.0330) [1.1 s]
+INFO:root:Epoch 20    loss=0.2089 [117.1 s]	dev=(HR@5:0.0561,NDCG@5:0.0327) [1.1 s]
+INFO:root:Epoch 21    loss=0.2026 [117.0 s]	dev=(HR@5:0.0589,NDCG@5:0.0340) [1.1 s] *
+INFO:root:Epoch 22    loss=0.1946 [116.2 s]	dev=(HR@5:0.0583,NDCG@5:0.0334) [1.3 s]
+INFO:root:Epoch 23    loss=0.1888 [116.7 s]	dev=(HR@5:0.0586,NDCG@5:0.0338) [1.1 s]
+INFO:root:Epoch 24    loss=0.1825 [116.1 s]	dev=(HR@5:0.0592,NDCG@5:0.0345) [1.2 s] *
+INFO:root:Epoch 25    loss=0.1750 [121.5 s]	dev=(HR@5:0.0601,NDCG@5:0.0348) [1.1 s] *
+INFO:root:Epoch 26    loss=0.1685 [117.0 s]	dev=(HR@5:0.0595,NDCG@5:0.0348) [1.2 s]
+INFO:root:Epoch 27    loss=0.1618 [116.3 s]	dev=(HR@5:0.0586,NDCG@5:0.0344) [1.2 s]
+INFO:root:Epoch 28    loss=0.1571 [116.1 s]	dev=(HR@5:0.0586,NDCG@5:0.0345) [1.3 s]
+INFO:root:Epoch 29    loss=0.1521 [118.7 s]	dev=(HR@5:0.0598,NDCG@5:0.0351) [1.2 s] *
+INFO:root:Epoch 30    loss=0.1461 [117.0 s]	dev=(HR@5:0.0610,NDCG@5:0.0358) [1.2 s] *
+INFO:root:Epoch 31    loss=0.1403 [116.5 s]	dev=(HR@5:0.0589,NDCG@5:0.0351) [1.2 s]
+INFO:root:Epoch 32    loss=0.1355 [117.1 s]	dev=(HR@5:0.0577,NDCG@5:0.0342) [1.1 s]
+INFO:root:Epoch 33    loss=0.1316 [116.7 s]	dev=(HR@5:0.0564,NDCG@5:0.0337) [1.2 s]
+INFO:root:Epoch 34    loss=0.1271 [116.6 s]	dev=(HR@5:0.0567,NDCG@5:0.0339) [1.2 s]
+INFO:root:Epoch 35    loss=0.1231 [116.8 s]	dev=(HR@5:0.0571,NDCG@5:0.0338) [1.1 s]
+INFO:root:Epoch 36    loss=0.1183 [117.3 s]	dev=(HR@5:0.0598,NDCG@5:0.0358) [1.1 s] *
+INFO:root:Epoch 37    loss=0.1147 [116.2 s]	dev=(HR@5:0.0592,NDCG@5:0.0353) [1.1 s]
+INFO:root:Epoch 38    loss=0.1091 [117.0 s]	dev=(HR@5:0.0595,NDCG@5:0.0352) [1.2 s]
+INFO:root:Epoch 39    loss=0.1045 [116.6 s]	dev=(HR@5:0.0595,NDCG@5:0.0353) [1.2 s]
+INFO:root:Epoch 40    loss=0.1013 [118.2 s]	dev=(HR@5:0.0580,NDCG@5:0.0344) [1.2 s]
+INFO:root:Epoch 41    loss=0.0987 [117.1 s]	dev=(HR@5:0.0564,NDCG@5:0.0341) [1.1 s]
+INFO:root:Epoch 42    loss=0.0940 [116.5 s]	dev=(HR@5:0.0586,NDCG@5:0.0352) [1.2 s]
+INFO:root:Epoch 43    loss=0.0921 [116.7 s]	dev=(HR@5:0.0583,NDCG@5:0.0348) [1.2 s]
+INFO:root:Epoch 44    loss=0.0877 [117.1 s]	dev=(HR@5:0.0567,NDCG@5:0.0339) [1.1 s]
+INFO:root:Epoch 45    loss=0.0847 [116.1 s]	dev=(HR@5:0.0574,NDCG@5:0.0347) [1.2 s]
+INFO:root:Early stop at 45 based on dev result.
+INFO:root:
+Best Iter(dev)=   36	 dev=(HR@5:0.0598,NDCG@5:0.0358) [5322.6 s] 
+INFO:root:Load model from ../model/LightGCN/LightGCN__MIND_Large\MINDTOPK__0__lr=0.001__l2=1e-08__emb_size=64__n_layers=3__batch_size=256.pt
+INFO:root:
+Dev  After Training: (HR@5:0.0598,NDCG@5:0.0358,HR@10:0.1245,NDCG@10:0.0565,HR@20:0.2488,NDCG@20:0.0875,HR@50:0.5344,NDCG@50:0.1434)
+INFO:root:
+Test After Training: (HR@5:0.1196,NDCG@5:0.0756,HR@10:0.1931,NDCG@10:0.0987,HR@20:0.3039,NDCG@20:0.1262,HR@50:0.5510,NDCG@50:0.1747)
+INFO:root:Saving top-100 recommendation results to: ../log/LightGCN/LightGCN__MIND_Large\LightGCN__MIND_Large\MINDTOPK__0__lr=0\rec-LightGCN-dev.csv
+INFO:root:dev Prediction results saved!
+INFO:root:Saving top-100 recommendation results to: ../log/LightGCN/LightGCN__MIND_Large\LightGCN__MIND_Large\MINDTOPK__0__lr=0\rec-LightGCN-test.csv
+INFO:root:test Prediction results saved!
+INFO:root:
+--------------------------------------------- END: 2025-01-01 01:46:00 ---------------------------------------------

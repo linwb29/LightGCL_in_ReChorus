@@ -1,0 +1,369 @@
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-31 22:09:25 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | -1                  
+ l2                 | 1e-08               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ svd_rank           | 5                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-31 22:19:38 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | -1                  
+ l2                 | 1e-08               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ svd_rank           | 5                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-31 22:45:32 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-08               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ svd_rank           | 5                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-31 22:53:58 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-08               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ svd_rank           | 5                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-31 22:57:28 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | 0                   
+ l2                 | 1e-08               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ svd_rank           | 5                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-31 22:57:58 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | -1                  
+ l2                 | 1e-08               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ svd_rank           | 5                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-31 23:18:51 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | -1                  
+ l2                 | 1e-08               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ svd_rank           | 5                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:LightGCL(
+  (encoder): LightGCLEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 8714x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 14682x64]
+    )
+  )
+)
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2024-12-31 23:35:52 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | -1                  
+ l2                 | 1e-08               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ svd_rank           | 5                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:LightGCL(
+  (encoder): LightGCLEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 8714x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 14682x64]
+    )
+  )
+)
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-01 13:47:29 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | -1                  
+ l2                 | 1e-08               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ svd_rank           | 5                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:LightGCL(
+  (encoder): LightGCLEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 8714x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 14682x64]
+    )
+  )
+)
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-01 14:00:36 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 256                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 256                 
+ gpu                | -1                  
+ l2                 | 1e-08               
+ lr                 | 0.001               
+ main_metric        |                     
+ n_layers           | 3                   
+ num_neg            | 1                   
+ num_workers        | 5                   
+ optimizer          | Adam                
+ random_seed        | 0                   
+ save_final_results | 1                   
+ svd_rank           | 5                   
+ test_all           | 0                   
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 1497344
+INFO:root:LightGCL(
+  (encoder): LightGCLEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 8714x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 14682x64]
+    )
+  )
+)
+INFO:root:Test Before Training: (HR@5:0.0691,NDCG@5:0.0443,HR@10:0.1214,NDCG@10:0.0611,HR@20:0.1988,NDCG@20:0.0805,HR@50:0.4162,NDCG@50:0.1230)
+INFO:root:Optimizer: Adam
+INFO:root:Epoch 1     loss=4.4315 [76.3 s]	dev=(HR@5:0.2777,NDCG@5:0.1851) [4.5 s] *
+INFO:root:Epoch 2     loss=4.8327 [76.8 s]	dev=(HR@5:0.0426,NDCG@5:0.0271) [4.5 s]
+INFO:root:Epoch 3     loss=13.6012 [80.9 s]	dev=(HR@5:0.0524,NDCG@5:0.0338) [4.7 s]
+INFO:root:Epoch 4     loss=12.7129 [79.6 s]	dev=(HR@5:0.0997,NDCG@5:0.0671) [4.5 s]
+INFO:root:Epoch 5     loss=6.3658 [79.3 s]	dev=(HR@5:0.2545,NDCG@5:0.1605) [4.4 s]
+INFO:root:Epoch 6     loss=3.6513 [75.9 s]	dev=(HR@5:0.2834,NDCG@5:0.1823) [4.4 s]
+INFO:root:Epoch 7     loss=3.6971 [75.5 s]	dev=(HR@5:0.2769,NDCG@5:0.1783) [4.2 s]
+INFO:root:Epoch 8     loss=3.6532 [75.6 s]	dev=(HR@5:0.3200,NDCG@5:0.2121) [4.3 s] *
+INFO:root:Epoch 9     loss=3.2989 [75.7 s]	dev=(HR@5:0.2851,NDCG@5:0.1837) [4.4 s]
+INFO:root:Epoch 10    loss=3.2961 [76.4 s]	dev=(HR@5:0.2966,NDCG@5:0.1919) [4.4 s]
+INFO:root:Epoch 11    loss=3.3221 [75.6 s]	dev=(HR@5:0.2764,NDCG@5:0.1765) [4.3 s]
+INFO:root:Epoch 12    loss=7.9953 [75.4 s]	dev=(HR@5:0.1002,NDCG@5:0.0696) [4.3 s]
+INFO:root:Epoch 13    loss=12.4437 [74.9 s]	dev=(HR@5:0.0847,NDCG@5:0.0582) [4.4 s]
+INFO:root:Epoch 14    loss=11.6065 [75.4 s]	dev=(HR@5:0.1389,NDCG@5:0.0906) [4.4 s]
+INFO:root:Epoch 15    loss=8.8339 [75.6 s]	dev=(HR@5:0.1578,NDCG@5:0.1072) [4.3 s]
+INFO:root:Epoch 16    loss=4.3570 [75.2 s]	dev=(HR@5:0.2354,NDCG@5:0.1478) [4.4 s]
+INFO:root:Epoch 17    loss=3.8950 [74.9 s]	dev=(HR@5:0.2360,NDCG@5:0.1477) [4.3 s]
+INFO:root:Early stop at 17 based on dev result.
+INFO:root:
+Best Iter(dev)=    8	 dev=(HR@5:0.3200,NDCG@5:0.2121) [1374.1 s] 
+INFO:root:Load model from ../model/LightGCL/LightGCL__Grocery_and_Gourmet_Food__0__lr=0.001__l2=1e-08__emb_size=64__n_layers=3__svd_rank=5.pt
+INFO:root:
+Dev  After Training: (HR@5:0.3200,NDCG@5:0.2121,HR@10:0.4529,NDCG@10:0.2553,HR@20:0.5684,NDCG@20:0.2845,HR@50:0.7628,NDCG@50:0.3228)
+INFO:root:
+Test After Training: (HR@5:0.2721,NDCG@5:0.1754,HR@10:0.4049,NDCG@10:0.2186,HR@20:0.5205,NDCG@20:0.2478,HR@50:0.7232,NDCG@50:0.2878)
+INFO:root:Saving top-100 recommendation results to: ../log/LightGCL\LightGCL__Grocery_and_Gourmet_Food__0__lr=0\rec-LightGCL-dev.csv
+INFO:root:dev Prediction results saved!
+INFO:root:Saving top-100 recommendation results to: ../log/LightGCL\LightGCL__Grocery_and_Gourmet_Food__0__lr=0\rec-LightGCL-test.csv
+INFO:root:test Prediction results saved!
+INFO:root:
+--------------------------------------------- END: 2025-01-01 14:24:05 ---------------------------------------------

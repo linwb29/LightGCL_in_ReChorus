@@ -1,0 +1,66 @@
+INFO:root:Namespace(model_name='LightGCL', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-01 14:25:17 ---------------------------------------------
+INFO:root:
+==========================================
+ Arguments          | Values              
+==========================================
+ batch_size         | 256                
+ data_appendix      |                    
+ dataset            | MIND_Large\MINDTOPK
+ dropout            | 0                  
+ early_stop         | 10                 
+ emb_size           | 64                 
+ epoch              | 200                
+ eval_batch_size    | 256                
+ gpu                | -1                 
+ l2                 | 1e-08              
+ lr                 | 0.001              
+ main_metric        |                    
+ n_layers           | 3                  
+ num_neg            | 1                  
+ num_workers        | 5                  
+ optimizer          | Adam               
+ random_seed        | 0                  
+ save_final_results | 1                  
+ svd_rank           | 5                  
+ test_all           | 0                  
+ topk               | 5,10,20,50         
+==========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from D:\ReChorus\data\MIND_Large\MINDTOPK\BaseReader.pkl
+INFO:root:#params: 1238080
+INFO:root:LightGCL(
+  (encoder): LightGCLEncoder(
+    (embedding_dict): ParameterDict(
+        (item_emb): Parameter containing: [torch.FloatTensor of size 2818x64]
+        (user_emb): Parameter containing: [torch.FloatTensor of size 16527x64]
+    )
+  )
+)
+INFO:root:Test Before Training: (HR@5:0.0725,NDCG@5:0.0396,HR@10:0.1539,NDCG@10:0.0659,HR@20:0.2529,NDCG@20:0.0909,HR@50:0.4775,NDCG@50:0.1343)
+INFO:root:Optimizer: Adam
+INFO:root:Epoch 1     loss=3.3807 [111.2 s]	dev=(HR@5:0.0334,NDCG@5:0.0187) [1.1 s] *
+INFO:root:Epoch 2     loss=9.2653 [112.6 s]	dev=(HR@5:0.0739,NDCG@5:0.0461) [1.1 s] *
+INFO:root:Epoch 3     loss=14.9398 [112.7 s]	dev=(HR@5:0.0739,NDCG@5:0.0461) [1.1 s] *
+INFO:root:Epoch 4     loss=14.8788 [112.6 s]	dev=(HR@5:0.0687,NDCG@5:0.0437) [1.1 s]
+INFO:root:Epoch 5     loss=5.2585 [112.4 s]	dev=(HR@5:0.0506,NDCG@5:0.0277) [1.1 s]
+INFO:root:Epoch 6     loss=4.6728 [111.8 s]	dev=(HR@5:0.0506,NDCG@5:0.0277) [1.1 s]
+INFO:root:Epoch 7     loss=4.6626 [110.6 s]	dev=(HR@5:0.0506,NDCG@5:0.0277) [1.1 s]
+INFO:root:Epoch 8     loss=4.6965 [110.9 s]	dev=(HR@5:0.0506,NDCG@5:0.0277) [1.1 s]
+INFO:root:Epoch 9     loss=3.8292 [110.6 s]	dev=(HR@5:0.0328,NDCG@5:0.0181) [1.1 s]
+INFO:root:Epoch 10    loss=2.9111 [111.7 s]	dev=(HR@5:0.0328,NDCG@5:0.0181) [1.1 s]
+INFO:root:Epoch 11    loss=2.9109 [111.7 s]	dev=(HR@5:0.0328,NDCG@5:0.0181) [1.1 s]
+INFO:root:Early stop at 11 based on dev result.
+INFO:root:
+Best Iter(dev)=    2	 dev=(HR@5:0.0739,NDCG@5:0.0461) [1240.8 s] 
+INFO:root:Load model from ../model/LightGCL/LightGCL__MIND_Large\MINDTOPK__0__lr=0.001__l2=1e-08__emb_size=64__n_layers=3__svd_rank=5.pt
+INFO:root:
+Dev  After Training: (HR@5:0.0739,NDCG@5:0.0461,HR@10:0.1552,NDCG@10:0.0719,HR@20:0.3248,NDCG@20:0.1148,HR@50:0.6175,NDCG@50:0.1720)
+INFO:root:
+Test After Training: (HR@5:0.1676,NDCG@5:0.0950,HR@10:0.2755,NDCG@10:0.1301,HR@20:0.3716,NDCG@20:0.1540,HR@50:0.5931,NDCG@50:0.1983)
+INFO:root:Saving top-100 recommendation results to: ../log/LightGCL/LightGCL__MIND_Large\LightGCL__MIND_Large\MINDTOPK__0__lr=0\rec-LightGCL-dev.csv
+INFO:root:dev Prediction results saved!
+INFO:root:Saving top-100 recommendation results to: ../log/LightGCL/LightGCL__MIND_Large\LightGCL__MIND_Large\MINDTOPK__0__lr=0\rec-LightGCL-test.csv
+INFO:root:test Prediction results saved!
+INFO:root:
+--------------------------------------------- END: 2025-01-01 14:46:07 ---------------------------------------------
